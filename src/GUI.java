@@ -45,9 +45,14 @@ public class GUI{
 
 
         playButton = new JButton("Παίξε");
+        playButton.setFont(new Font("Arial", Font.PLAIN, 25));
+
         signInButton = new JButton("Εγραφή νέου χρήστη");
+        signInButton.setFont(new Font("Arial", Font.PLAIN, 25));
         statisticsButton = new JButton("Στατιστικά");
+        statisticsButton.setFont(new Font("Arial", Font.PLAIN, 25));
         infoOfGame = new JButton("Σχετικά");
+        infoOfGame.setFont(new Font("Arial", Font.PLAIN, 25));
         String imgName = "/Images/BuzzLogo.jpeg";
         URL imageURL = getClass().getResource(imgName);
         if (imageURL != null) {
