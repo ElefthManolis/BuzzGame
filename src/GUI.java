@@ -355,7 +355,7 @@ public class GUI{
         JPanel panel4 = new JPanel();
         JPanel panel5 = new JPanel();
         panel4.setBackground(Color.orange);
-        panel5.setBackground(Color.green);
+        panel5.setBackground(Color.cyan);
 
         JButton answer2 = new JButton(game.getCurrentQuestion(player1).getAnswerAtIndex(0));
         JButton answer3 = new JButton(game.getCurrentQuestion(player1).getAnswerAtIndex(1));
@@ -554,7 +554,7 @@ public class GUI{
         JSplitPane jsp1 = new JSplitPane();
         jsp1.setLayout(new GridLayout(2,2));
         jsp1 = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, true, panel4, panel5);
-        jsp1.setDividerLocation(dim.width / 2);
+
 
 
 
@@ -567,6 +567,7 @@ public class GUI{
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setVisible(true);
+        jsp1.setDividerLocation((frame.getBounds().width / 2)-10);
     }
 
 
@@ -648,7 +649,7 @@ public class GUI{
         JPanel panel4 = new JPanel();
         JPanel panel5 = new JPanel();
         panel4.setBackground(Color.orange);
-        panel5.setBackground(Color.green);
+        panel5.setBackground(Color.cyan);
 
         JButton answer2 = new JButton(game.getCurrentQuestion(player1).getAnswerAtIndex(0));
         JButton answer3 = new JButton(game.getCurrentQuestion(player1).getAnswerAtIndex(1));
@@ -840,7 +841,7 @@ public class GUI{
         JSplitPane jsp1 = new JSplitPane();
         jsp1.setLayout(new GridLayout(2,2));
         jsp1 = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, true, panel4, panel5);
-        jsp1.setDividerLocation(dim.width / 2);
+
 
 
 
@@ -853,6 +854,7 @@ public class GUI{
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setVisible(true);
+        jsp1.setDividerLocation((frame.getBounds().width / 2)-10);
 
     }
 
@@ -932,7 +934,7 @@ public class GUI{
         JPanel panel4 = new JPanel();
         JPanel panel5 = new JPanel();
         panel4.setBackground(Color.orange);
-        panel5.setBackground(Color.green);
+        panel5.setBackground(Color.cyan);
 
         JButton answer2 = new JButton(game.getCurrentQuestion(player1).getAnswerAtIndex(0));
         JButton answer3 = new JButton(game.getCurrentQuestion(player1).getAnswerAtIndex(1));
@@ -1125,7 +1127,7 @@ public class GUI{
         JSplitPane jsp1 = new JSplitPane();
         jsp1.setLayout(new GridLayout(2,2));
         jsp1 = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, true, panel4, panel5);
-        jsp1.setDividerLocation(dim.width / 2);
+
 
 
 
@@ -1137,6 +1139,7 @@ public class GUI{
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+        jsp1.setDividerLocation((frame.getBounds().width / 2)-10);
     }
 
 
@@ -2051,7 +2054,7 @@ public class GUI{
         JPanel panel4 = new JPanel();
         JPanel panel5 = new JPanel();
         panel4.setBackground(Color.orange);
-        panel5.setBackground(Color.green);
+        panel5.setBackground(Color.cyan);
 
 
 
@@ -2258,7 +2261,8 @@ public class GUI{
         JSplitPane jsp1 = new JSplitPane();
         jsp1.setLayout(new GridLayout(2,2));
         jsp1 = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, true, panel4, panel5);
-        jsp1.setDividerLocation(dim.width / 2);
+        jsp1.setDividerLocation(frame.getBounds().width / 2);
+
 
 
 
@@ -2267,12 +2271,12 @@ public class GUI{
         frame.add(panel2);
         frame.add(jsp1);
 
+
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setVisible(true);
-
-
+        jsp1.setDividerLocation((frame.getBounds().width / 2)-10);
 
 
 
@@ -2594,7 +2598,7 @@ public class GUI{
         JPanel panel4 = new JPanel();
         JPanel panel5 = new JPanel();
         panel4.setBackground(Color.orange);
-        panel5.setBackground(Color.green);
+        panel5.setBackground(Color.cyan);
 
         JButton answer2 = new JButton(game.getCurrentQuestion(player1).getAnswerAtIndex(0));
         JButton answer3 = new JButton(game.getCurrentQuestion(player1).getAnswerAtIndex(1));
@@ -2793,7 +2797,7 @@ public class GUI{
         JSplitPane jsp1 = new JSplitPane();
         jsp1.setLayout(new GridLayout(2,2));
         jsp1 = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, true, panel4, panel5);
-        jsp1.setDividerLocation(dimension.width / 2);
+
 
 
 
@@ -2806,6 +2810,7 @@ public class GUI{
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setVisible(true);
+        jsp1.setDividerLocation((frame.getBounds().width / 2)-10);
     }
 
     /**
